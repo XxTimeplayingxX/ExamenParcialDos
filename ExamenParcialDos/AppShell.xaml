@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ExamenParcialDos.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ExamenParcialDos.Views"
+    Shell.FlyoutBehavior="Disabled">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:LoginPage}"
+        Route="LoginPage" />
+
+    <!--  Main Page  -->
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems" Route="Main">
+        <ShellContent ContentTemplate="{DataTemplate local:Encuesta}" Route="Encuesta" />
+    </FlyoutItem>
+
+</Shell>
