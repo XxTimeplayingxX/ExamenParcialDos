@@ -54,10 +54,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Services\Interfaces\" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <MauiXaml Update="Views\Encuesta.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
